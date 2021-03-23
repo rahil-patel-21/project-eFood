@@ -1,0 +1,55 @@
+name: flutter_restaurant
+description: A new Flutter restaurant application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  get_it: ^5.0.3
+  provider: ^4.3.2+3
+  shared_preferences: ^0.5.12+4
+  dio: ^3.0.10
+  image_picker: ^0.6.7+21
+  pin_code_fields: ^5.1.0
+  google_maps_flutter: ^1.2.0
+  geocoder: ^0.2.1
+  geolocator: ^6.2.0
+  shimmer: ^1.1.2
+  flutter_xlider: ^3.4.0
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
+  firebase_messaging: ^7.0.3
+  flutter_local_notifications: ^4.0.1
+  path_provider: ^1.6.24
+  flutter_html: ^1.2.0
+  connectivity: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/image/
+    - assets/language/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
